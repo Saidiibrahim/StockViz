@@ -10,7 +10,8 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("StockVis")
+      h1("StockVis"),
+      mod_my_first_module_ui("my_first_module_ui_1")
     )
   )
 }
